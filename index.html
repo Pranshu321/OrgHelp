@@ -662,6 +662,7 @@
       </div>
     </section>
     <!-- ====== Team End ====== -->
+    <div class="alan-btn"></div>
 
     <!-- ====== Contact Start ====== -->
     <section id="contact" class="ud-contact" style="background-color: #151719;">
@@ -998,6 +999,7 @@
         });
       });
 
+
       // section menu active
       function onScroll(event) {
         const sections = document.querySelectorAll(".ud-menu-scroll");
@@ -1027,5 +1029,18 @@
 
       window.document.addEventListener("scroll", onScroll);
     </script>
+    <script type="text/javascript"
+    src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
+   <script>
+     var alanBtnInstance = alanBtn({
+       key: "edd624471d22a327e3cbe07307415c0c2e956eca572e1d8b807a3e2338fdd0dc/stage",
+       onCommand: function (commandData) {
+         if (commandData.command === "go:back") {
+           //call client code that will react on the received command
+         }
+       },
+       rootEl: document.getElementById("alan-btn"),
+     });
+   </script>
   </body>
 </html>

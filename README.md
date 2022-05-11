@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template" target="blank">
+  <a href="https://pranshu321.github.io/OrgHelp/" target="blank">
     <img src="https://user-images.githubusercontent.com/86917304/167479064-bbfd05e1-1a29-4c43-b1f2-f90187f1a7f0.png" alt="Logo" width="80" height="80">
   </a>
 
